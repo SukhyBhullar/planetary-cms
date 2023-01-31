@@ -3,14 +3,14 @@ import { GiPlanetConquest } from "react-icons/md";
 export default {
   name: "places",
   title: "Places",
-  type: "object",
+  type: "document",
   icon: GiPlanetConquest,
   fields: [
     {
       name: "name",
       title: "Name",
       type: "string",
-      description: 'Name of the place',
+      description: "Name of the place",
     },
     {
       name: "slug",
@@ -22,10 +22,19 @@ export default {
       },
     },
     {
-        name: "subTitle",
-        title: "Sub Title",
-        type: "string",
-        description: 'Description of the place',
-    }
-  ]
+      name: "subTitle",
+      title: "Sub Title",
+      type: "string",
+      description: "Description of the place",
+    },
+    {
+      name: "travelAction",
+      title: "Travel Action",
+      type: "travelAction",
+      description: "Action for traveling",
+    },
+  ],
+  preview: {
+    select: { title: "name" },
+  },
 };

@@ -1,8 +1,16 @@
-# Sanity Movies Content Studio
+# Sanity Content Studio for Planetary
 
-Congratulations, you have now installed the Sanity Content Studio, an open source real-time content editing environment connected to the Sanity backend.
+To use sanity studio run install node, pull this repo and then run:
 
-Now you can do the following things:
+`npm i`
+
+Once this completes run
+
+`npm run start`
+
+This may take some time the first time you run. Once this completes Sanity should be running on [localhost](http://localhost:3333)
+
+# Links
 
 - [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
 - Check out one of the example frontends: [React](https://github.com/sanity-io/example-frontend-next-js) | [React Native](https://github.com/sanity-io/example-app-react-native) | [Vue](https://github.com/sanity-io/example-frontend-vue-js) | [PHP](https://github.com/sanity-io/example-frontend-silex-twig)

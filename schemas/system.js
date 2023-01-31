@@ -26,7 +26,7 @@ export default {
       title: "Places",
       type: "array",
       description: "Places within system",
-      of: [{ type: "places" }],
+      of: [{ type: "reference", to: [{ type: "places" }] }],
     },
   ],
   preview: {
